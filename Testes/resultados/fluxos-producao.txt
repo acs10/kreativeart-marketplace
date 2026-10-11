@@ -1,0 +1,11 @@
+✅ F-01 contratar exige cadastro de cliente — redirecionou para o cadastro com retorno ao plano
+✅ F-02 cadastro de cliente valida e cria a conta — voltou para a contratação já logado
+✅ F-03 contratar o plano com briefing — KA-2026-0008 aguardando designer
+✅ F-04 designer em análise não aceita; designer ativo aceita — Diego aceitou; mostra R$ 531,00 (90% de R$ 590)
+✅ F-05 cliente paga e a produção começa — pago para a chave PIX do Diego; KreativeArt R$ 59,00; pedido em andamento
+✅ F-06 designer envia prévia PNG + PSD + CDR (miniaturas geradas) — PNG de prévia; PSD e CDR com miniatura extraída
+✅ F-07 cliente pede ajuste; designer envia v2; cliente aprova — v1 → ajuste → v2 → aprovada
+✅ F-08 designer revela o acesso do cliente (fica registrado) e confirma a publicação — senha revelada, registro visível ao cliente, peça entregue
+✅ F-09 KreativeArt aprova a designer em análise e vê a comissão — Carla aprovada; comissão R$ 59,00 no financeiro
+
+Resultado: 9/9 fluxos aprovados

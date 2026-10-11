@@ -1,0 +1,9 @@
+Produção: https://kreativeart.netlify.app — 10/10/2026, 16:31:09
+
+✅ PRD-01 páginas públicas e 404 — início 200 em 0.85 s; serviços, planos, designers e login 200; 404 ok
+✅ PRD-02 banco de dados e modo de pagamento — Firestore respondendo em 0.45 s; 9 serviços; pagamento em modo demonstração
+✅ PRD-03 cabeçalhos de segurança — 6/6 presentes; X-Powered-By ausente
+✅ PRD-04 nada sensível exposto — sem hash nem cofre na resposta; arquivos locais 404; webhook desligado (404) sem credenciais
+✅ PRD-05 documentação no link secreto — link 200 com noindex e CSP própria; código errado 404; CSP do site intacta
+
+Resultado: 5/5 grupos aprovados

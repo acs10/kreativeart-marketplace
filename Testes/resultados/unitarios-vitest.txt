@@ -1,0 +1,36 @@
+
+ RUN  v5.0.3 C:/Users/andre/Desktop/Claude Development Team/Claude Projects/KreativeArt Team Platform
+
+ ✓ tests/unit/marketplace.test.ts > UT-01 comissão e cobranças > divide 10% para a KreativeArt e o resto para o designer 3ms
+ ✓ tests/unit/marketplace.test.ts > UT-01 comissão e cobranças > classifica em aberto, em atraso e pago 0ms
+ ✓ tests/unit/marketplace.test.ts > UT-02 cronograma > plano: espalha as peças no mês, respeitando o prazo mínimo 1ms
+ ✓ tests/unit/marketplace.test.ts > UT-02 cronograma > serviço avulso: prazo do serviço a partir da ativação 1ms
+ ✓ tests/unit/marketplace.test.ts > UT-02 cronograma > vencimento limitado ao fim do mês e 1º mês do plano 0ms
+ ✓ tests/unit/marketplace.test.ts > UT-02 cronograma > atraso e pontualidade 0ms
+ ✓ tests/unit/marketplace.test.ts > UT-03 fluxo completo de um serviço avulso > contratar → designer aceita → paga → produz → ajuste → aprova → entrega → conclui 56ms
+ ✓ tests/unit/marketplace.test.ts > UT-03 fluxo completo de um serviço avulso > cliente só cancela antes de começar; cancelar anula cobranças em aberto 38ms
+ ✓ tests/unit/marketplace.test.ts > UT-03 fluxo completo de um serviço avulso > plano exige a fidelidade mínima 43ms
+ ✓ tests/unit/marketplace.test.ts > UT-04 dados demonstrativos e regras derivadas > cenários: oportunidades, aguardando pagamento, atraso e pausa 1ms
+ ✓ tests/unit/marketplace.test.ts > UT-04 dados demonstrativos e regras derivadas > desempenho: Ana cumpre a meta, Bruno está atrasando 1ms
+ ✓ tests/unit/marketplace.test.ts > UT-04 dados demonstrativos e regras derivadas > cofre: só o designer com pedido ativo revela, e fica registrado 1ms
+ ✓ tests/unit/access.test.ts > UT-05 o que cada perfil recebe > visitante: só catálogo e perfil público dos designers ativos 65ms
+ ✓ tests/unit/access.test.ts > UT-05 o que cada perfil recebe > cliente: só os próprios dados, PIX só dos designers dele, nenhum hash 34ms
+ ✓ tests/unit/access.test.ts > UT-05 o que cada perfil recebe > designer: pedidos abertos + os dele; cofre sem senha; sem documento de clientes 30ms
+ ✓ tests/unit/access.test.ts > UT-05 o que cada perfil recebe > KreativeArt: tudo, menos hashes e senhas do cofre 28ms
+ ✓ tests/unit/access.test.ts > UT-06 ações no servidor > recusa ações fora do perfil 32ms
+ ✓ tests/unit/access.test.ts > UT-06 ações no servidor > usa o perfil da sessão, não o enviado pelo navegador 39ms
+ ✓ tests/unit/access.test.ts > UT-06 ações no servidor > limpa campos: não deixa trocar papel, senha ou status pelo perfil; link do logo só https 41ms
+ ✓ tests/unit/access.test.ts > UT-06 ações no servidor > repete os mesmos ids gerados no navegador 39ms
+ ✓ tests/unit/access.test.ts > UT-07 gravação e segredos > grava só os documentos que mudaram 44ms
+ ✓ tests/unit/access.test.ts > UT-07 gravação e segredos > senha do cofre vai cifrada para o banco e volta igual 34ms
+ ✓ tests/unit/access.test.ts > UT-07 gravação e segredos > senha de login com scrypt e sal aleatório 141ms
+ ✓ tests/unit/access.test.ts > UT-08 pagamento PIX e repasse > com o Mercado Pago ligado, só o retorno do pagamento (ou a KreativeArt) confirma 33ms
+ ✓ tests/unit/access.test.ts > UT-08 pagamento PIX e repasse > aprovação do Mercado Pago confirma a cobrança, ativa o pedido e registra o repasse 31ms
+ ✓ tests/unit/access.test.ts > UT-08 pagamento PIX e repasse > repasse manual: só a KreativeArt marca, e só uma vez 33ms
+ ✓ tests/unit/access.test.ts > UT-08 pagamento PIX e repasse > split: repasse já feito pelo Mercado Pago 34ms
+
+ Test Files  2 passed (2)
+      Tests  27 passed (27)
+   Start at  16:13:28
+   Duration  1.49s (tests 47%, import 37%, transform 15%, worker 1%)
+

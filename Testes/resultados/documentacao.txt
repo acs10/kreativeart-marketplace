@@ -1,0 +1,8 @@
+✅ Documents/02-fluxos-e-casos-de-uso.md: 4/4 diagramas
+✅ Documents/03-arquitetura-e-classes.md: 3/3 diagramas
+✅ Documents/04-modelo-de-dados.md: 1/1 diagramas
+✅ Documents/05-seguranca.md: 1/1 diagramas
+✅ Documents/06-pagamentos-mercado-pago.md: 1/1 diagramas
+✅ Testes/README.md: 1/1 diagramas
+
+19 documentos · 11 diagramas desenhados · 0 com problema

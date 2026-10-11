@@ -1,0 +1,63 @@
+/*
+ * Design tokens da KreativeArt — gradiente da marca, status e escala de texto.
+ */
+@theme {
+  --color-brand-blue: #3b82f6;
+  --color-brand-purple: #8b5cf6;
+  --color-brand-pink: #ec4899;
+  --color-ink: #111827;
+
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
+  --text-small: 0.875rem;
+  --text-small--line-height: 1.55;
+  --text-body: 1rem;
+  --text-body--line-height: 1.7;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  --animate-pop: pop 0.25s ease-out;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.97);
+    opacity: 0;
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background: #f9fafb;
+    -webkit-font-smoothing: antialiased;
+  }
+  button:not(:disabled),
+  [role="button"] {
+    cursor: pointer;
+  }
+}
+
+@utility brand-gradient {
+  background-image: linear-gradient(to right, var(--color-brand-blue), var(--color-brand-purple), var(--color-brand-pink));
+}
+
+@utility brand-gradient-soft {
+  background-image: linear-gradient(to bottom right, #eff6ff, #f5f3ff, #fdf2f8);
+}
+
+@utility brand-text {
+  background-image: linear-gradient(to right, var(--color-brand-blue), var(--color-brand-purple), var(--color-brand-pink));
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

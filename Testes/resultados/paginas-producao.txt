@@ -1,0 +1,32 @@
+✅ [public] /
+✅ [public] /servicos
+✅ [public] /planos
+✅ [public] /designers
+✅ [public] /contratar/plano/p-crescimento
+✅ [public] /entrar
+✅ [public] /cadastro/cliente
+✅ [public] /cadastro/designer
+✅ [client] /cliente
+✅ [client] /cliente/aprovacoes
+✅ [client] /cliente/pedidos
+✅ [client] /cliente/financeiro
+✅ [client] /cliente/calendario
+✅ [client] /cliente/acessos
+✅ [client] /cliente/perfil
+✅ [designer] /designer
+✅ [designer] /designer/oportunidades
+✅ [designer] /designer/quadro
+✅ [designer] /designer/calendario
+✅ [designer] /designer/ganhos
+✅ [designer] /designer/perfil
+✅ [admin] /admin
+✅ [admin] /admin/inteligencia
+✅ [admin] /admin/pedidos
+✅ [admin] /admin/entregas
+✅ [admin] /admin/designers
+✅ [admin] /admin/clientes
+✅ [admin] /admin/financeiro
+✅ [admin] /admin/catalogo
+✅ [admin] /admin/configuracoes
+
+Todas as páginas sem erro

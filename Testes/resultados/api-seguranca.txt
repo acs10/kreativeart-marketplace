@@ -1,0 +1,10 @@
+✅ API-01 visitante vê só o catálogo — 9 serviços, 3 planos, 4 designers (sem e-mail, telefone, PIX ou documento)
+✅ API-02 login: senha errada recusada; certa abre sessão HttpOnly — senha errada 401; cookie HttpOnly + SameSite=Lax
+✅ API-03 cliente vê só os próprios dados — 2 pedidos, 73 peças, nenhum dado de outro cliente, nenhum hash
+✅ API-04 designer não recebe senhas do cofre nem dados de clientes sem pedido — 2 acessos sem senha; só clientes com pedido; sem CPF/CNPJ/e-mail
+✅ API-05 ações recusadas pelo perfil (o perfil vem da sessão) — 7 tentativas recusadas (422); sem login 401; ação inexistente 400
+✅ API-06 proteção CSRF e entrada inválida — sem origem 403; outro site 403; formulário (não JSON) não autentica
+✅ API-07 cofre: revelar só com pedido ativo e fica registrado — Ana (pedido ativo) revelou; Bruno recusado 403; cliente vê o registro
+✅ API-08 arquivos: sem login e sem vínculo não baixa — visitante e cliente não enviam (403); .exe recusado (422); parte sem login 404; cliente sem vínculo 404
+
+Resultado: 8/8 verificações aprovadas

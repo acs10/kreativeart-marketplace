@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "kreativeart", "runtimeExecutable": "npx.cmd", "runtimeArgs": ["next", "dev", "-p", "3005"], "port": 3005 }
+  ]
+}
